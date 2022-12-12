@@ -1,0 +1,48 @@
+.logo {
+    width: 150px;
+}
+
+body {
+    background-color: #121f3d;
+}
+
+h1,
+h2,
+p,
+label {
+    color: white;
+}
+
+input[type="search"] {
+    flex-grow: 1;
+    border: 1px solid #1c1d1f;
+    border-radius: 9999px;
+    margin: 0 1.2rem;
+    background-color: #121f3d;
+}
+
+a {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+
+a:hover {
+    color: #dc0914;
+    text-decoration: none;
+}
+
+small {
+    color: violet;
+}
+
+.modal-header,
+.modal-footer {
+    background-color: #1c1d1f;
+    color: wheat;
+}
+
+.modal-body {
+    background-color: #121f3d;
+}

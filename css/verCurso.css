@@ -1,0 +1,223 @@
+.arriba {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btnComprar,
+.btnComprarN {
+    background: transparent;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    border: solid 1px rgb(177, 177, 177);
+    color: #aaaaaa;
+    height: 45px;
+    cursor: pointer;
+    margin: 5px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-family: Roboto, Sans-Serif;
+    width: 100%;
+}
+
+.btnComprar:hover,
+.btnComprarN:hover {
+    background: #dc0914;
+    border: solid 1px #222;
+    color: #1c1d1f;
+}
+
+.mensajeria {
+    margin-top: 5px;
+}
+
+.titulo {
+    font-size: 35px;
+    line-height: 30px;
+    padding: 10px 50px 35px 25px;
+    background: linear-gradient(90deg, rgb(63, 63, 63), transparent);
+}
+
+.autor {
+    font-size: 12px;
+    text-transform: uppercase;
+    position: relative;
+    top: -30px;
+    margin-left: 25px;
+    color: #3a67d1;
+}
+
+.info {
+    position: relative;
+    top: -20px;
+}
+
+.val {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+label,
+strong {
+    color: violet;
+}
+
+.desc {
+    position: relative;
+    top: -10px;
+}
+
+hr {
+    background-color: black;
+}
+
+h3 {
+    color: wheat;
+}
+
+.list-group-flush {
+    margin-left: 10px;
+    margin-right: 25%;
+}
+
+.list-group-item {
+    background-color: rgb(71, 71, 71);
+}
+
+.btnComprarN {
+    width: 70%;
+}
+
+.visto {
+    color: rgb(177, 177, 177);
+}
+
+.visto:hover {
+    color: rgb(250, 71, 71);
+}
+
+.course-progress__box {
+    background-color: rgb(71, 71, 71);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 6px;
+    box-shadow: 0 -2px 7px 0 rgba(22, 22, 22, .01), 0 2px 10px 0 rgba(80, 80, 80, .1);
+    flex-direction: row;
+    align-items: center;
+    padding: 3rem;
+}
+
+.course-progress__status {
+    align-items: center;
+    flex-grow: 1;
+    height: 100%;
+    margin-right: 3rem;
+    margin-bottom: 0;
+}
+
+.course-progress__title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.course-progress__status .course-status-new__progress {
+    margin-top: 1.5rem;
+}
+
+.progress {
+    height: .1875rem;
+    line-height: 0;
+    font-size: .6875rem;
+    border-radius: 0;
+}
+
+.progress-bar {
+    display: flex;
+    overflow: hidden;
+    transition: none;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #00b2bd;
+}
+
+.course-status-new--md .course-status-new__label {
+    margin-top: .5rem;
+    font-size: .8125rem;
+    color: white;
+}
+
+.course-progress__actions {
+    text-align: center;
+}
+
+.course-progress__btn {
+    white-space: nowrap;
+}
+
+.btn-xl {
+    padding: 12px 25px;
+}
+
+.btn-xl {
+    padding: 6px 15px;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    border-radius: .125rem;
+}
+
+.btn-quaternary,
+.btn-quaternary:focus,
+.btn-quaternary:hover {
+    color: #fff;
+    fill: #fff;
+}
+
+.btn-quaternary {
+    background-color: #00b2bd;
+}
+
+table {
+    background-color: #1c1d1f;
+}
+
+th,
+td {
+    color: white;
+}
+
+.finalizarCurso {
+    background: transparent;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    border: solid 1px #888;
+    color: white;
+    padding: 0;
+    height: 45px;
+    line-height: 45px;
+    cursor: pointer;
+    margin: 5px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    outline: none;
+    display: block;
+    font-family: Roboto, Sans-Serif;
+    width: 100%;
+}
+
+.finalizarCurso:hover {
+    background: #dc0914;
+    border: solid 1px #222;
+    color: #222;
+}

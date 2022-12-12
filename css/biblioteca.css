@@ -1,0 +1,252 @@
+.bixbox {
+    background: #222;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    margin-bottom: 18px;
+    overflow: hidden;
+    -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, .1);
+    -khtml-box-shadow: 0 2px 3px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, .1);
+    -ms-box-shadow: 0 2px 3px rgba(0, 0, 0, .1);
+    -o-box-shadow: 0 2px 3px rgba(0, 0, 0, .1);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .1);
+    margin: 1em;
+}
+
+.releases {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 1px solid #312f40;
+    padding: 8px 15px;
+}
+
+.releases::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: auto;
+    top: auto;
+    height: 1px;
+    width: 100%;
+    background-color: transparent;
+    display: block;
+    z-index: 1;
+    transform: scaleY(0.5);
+    opacity: .8;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.01) 0, rgba(0, 0, 0, 0.1) 10%, rgba(0, 0, 0, 0.2) 20%, rgba(0, 0, 0, 0.3) 30%, rgba(0, 0, 0, 0.3) 70%, rgba(0, 0, 0, 0.2) 80%, rgba(0, 0, 0, 0.1) 90%, rgba(0, 0, 0, 0.01) 100%);
+}
+
+.releases h1,
+.releases h2,
+.releases h3,
+#sidebar .section h4 {
+    font-size: 15px;
+    color: #FFF;
+    line-height: 20px;
+    font-weight: 500;
+    margin: 0;
+    position: relative;
+}
+
+.advancedsearch {
+    position: relative;
+}
+
+.quickfilter {
+    padding: 9px;
+}
+
+.quickfilter .filters {
+    position: relative;
+}
+
+.advancedsearch .quickfilter .filters .filter,
+.advancedsearch .quickfilter .filters .filter.submit {
+    width: 20%;
+    position: static;
+}
+
+.quickfilter .filters .filter {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 6px 5px;
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    border-radius: 2px;
+}
+
+.quickfilter .filters .filter button {
+    width: 100%;
+    color: #ccc;
+    padding: 3px 6px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 2px;
+    background-color: #333;
+    border-color: #333;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    -webkit-appearance: button;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    overflow: visible;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: inherit;
+}
+
+.advancedsearch .quickfilter .filters .filter ul.dropdown-menu.c1 {
+    max-width: 1em;
+    float: none;
+}
+
+.advancedsearch .quickfilter .filters .filter ul {
+    right: 0;
+    left: 0;
+    top: auto;
+}
+
+.quickfilter .filters .filter ul {
+    margin-top: 1px !important;
+    padding: 10px !important;
+    font-size: 13px;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: auto;
+    z-index: 2;
+    min-width: 160px;
+    text-align: left;
+    background-color: #333;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 3px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    background-clip: padding-box;
+    list-style: none;
+    width: fit-content;
+}
+
+.advancedsearch .quickfilter .filters .filter ul.dropdown-menu.c1 li {
+    width: 25%;
+    float: left;
+}
+
+.listupd {
+    padding: 10px;
+    overflow: hidden;
+}
+
+.bs {
+    float: left;
+    width: 33%;
+}
+
+.bs .bsx {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 7px;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+    transition: color .1s linear;
+    -moz-transition: color .1s linear;
+    -webkit-transition: color .1s linear;
+}
+
+.bs .bsx .limit {
+    padding: 137% 0 0;
+    position: relative;
+    overflow: hidden;
+    background: #111;
+    border-radius: 3px;
+}
+
+.bs .bsx .limit .ply {
+    display: none;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    height: 100%;
+    top: 0;
+    background: rgba(0, 0, 0, 0.51);
+}
+
+.bs .bsx .limit img {
+    width: 100%;
+    height: auto;
+    top: 0;
+    position: absolute;
+}
+
+img {
+    max-width: 100%;
+}
+
+.bigor {
+    height: 80px;
+}
+
+.bs .bsx .tt {
+    font-size: .95em;
+    margin: 8px 0;
+    margin-bottom: 8px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.bs .bsx .adds {
+    font-size: 13px;
+    color: #999;
+}
+
+.bs .bsx .adds .rating {
+    overflow: hidden;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.rating-prc .rtp {
+    overflow: hidden;
+    float: left;
+}
+
+.bs .bsx .numscore {
+    line-height: normal;
+}
+
+.hpage {
+    clear: both;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.dropdown-menu {
+    width: fit-content;
+}

@@ -1,0 +1,71 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+    margin-top: 5%;
+}
+
+#formContent {
+    border-radius: 10px 10px 10px 10px;
+    max-width: 450px;
+    box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+    text-align: center;
+    background-color: rgb(52, 58, 64);
+}
+
+#icon {
+    margin: 5% auto;
+    width: 30%;
+}
+
+*:focus {
+    outline: none;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    width: 85%;
+    border-radius: 5px 5px 5px 5px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    background-color: whitesmoke;
+    border-bottom: 2px solid #dc0914;
+}
+
+input[type="submit"] {
+    background-color: #dc0914;
+    border: none;
+    color: white;
+    padding: 15px 80px;
+    text-transform: uppercase;
+    font-size: 13px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    margin: 10px 20px 15px 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background-color: rgba(0, 0, 0, 0.507);
+    color: #dc0914;
+}
+
+.registro {
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+a:hover {
+    color: #dc0914;
+}

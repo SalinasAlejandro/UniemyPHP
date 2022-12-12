@@ -1,0 +1,102 @@
+.flexContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-top: calc(var(--space) * 0);
+    padding-left: calc(var(--space) * 0);
+    padding-right: calc(var(--space) * 0);
+    position: relative;
+}
+
+.maxWidth {
+    width: 75%;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.tituloSeccion {
+    background: linear-gradient(90deg, #000000, rgba(255, 255, 255, 0));
+    padding: 10px 25px 15px;
+    font-size: 2em;
+    font-weight: 700;
+    margin-right: auto;
+    position: relative;
+    color: white;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 0.5rem;
+    padding: 0px 25px;
+}
+
+.tarjeta {
+    margin-bottom: 1px;
+}
+
+.tarjetaCuerpo {
+    padding: 10px 2px;
+}
+
+.tarjetaImagen {
+    width: 100%;
+    min-height: 200px;
+    max-height: 200px;
+}
+
+.tituloTarjeta {
+    margin-top: 4px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    color: #dce0e4;
+    margin-bottom: .5rem;
+}
+
+.autorTarjeta {
+    color: #6a6f73;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    line-height: 0.9rem;
+    margin-bottom: .5rem;
+}
+
+.valTarjeta,
+.precioTarjeta {
+    font-size: 1.5rem;
+    line-height: 1.2rem;
+    color: #f0e7e7;
+    display: inline;
+}
+
+.valTarjeta {
+    padding-left: 4.5rem;
+}
+
+.seccion {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.izquierda {
+    width: 25%;
+}
+
+.random {
+    background: linear-gradient(180deg, #000000, rgba(63, 63, 63, 0));
+    margin-right: 10px;
+    margin-top: 50px;
+}
+
+.cuerpo {
+    margin-top: 15px;
+    margin-left: 15px;
+}

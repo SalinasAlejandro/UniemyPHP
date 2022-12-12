@@ -1,0 +1,44 @@
+.banner {
+    background-color: rgb(52, 58, 64);
+}
+
+.img-profile {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: rgb(52, 58, 64);
+    border: none;
+    color: #ffffff69;
+}
+
+.btn {
+    background-color: #121f3d;
+    border: none;
+}
+
+.btnAvatar {
+    margin-top: 8px;
+}
+
+.btnEdit {
+    display: inline;
+}
+
+.card {
+    background-color: rgb(52, 52, 52);
+    margin: 10px 20px;
+}
+
+h5 {
+    color: white;
+}
+
+.titulo:hover {
+    color: red;
+}

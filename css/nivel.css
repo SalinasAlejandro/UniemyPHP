@@ -1,0 +1,102 @@
+body {
+    margin-bottom: 2%;
+}
+
+a h4 {
+    color: violet;
+    text-decoration: none;
+    transition: color 0.1s linear;
+    -moz-transition: color 0.1s linear;
+    -webkit-transition: color 0.1s linear;
+}
+
+a h4:hover {
+    color: red;
+}
+
+h5,
+h3 {
+    color: rgb(70, 77, 85);
+}
+
+hr {
+    background-color: black;
+}
+
+table {
+    background-color: #1c1d1f;
+}
+
+th {
+    color: rgb(255, 255, 255);
+}
+
+td {
+    color: rgb(196, 196, 196);
+}
+
+.nextprev a {
+    display: block;
+    padding: 2px 15px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 13px;
+    background: #0c70de;
+    line-height: 25px;
+}
+
+.nextprev a.disabled {
+    background: #222;
+    color: #555;
+}
+
+.nextprev a[rel="prev"] {
+    float: left;
+}
+
+.nextprev a[rel="next"] {
+    margin-left: 10px;
+    float: right;
+}
+
+.r {
+    float: right;
+    margin-left: 10px;
+}
+
+.finalizarCurso {
+    background: transparent;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    border: solid 1px #888;
+    color: #dc0914;
+    padding: 0;
+    height: 45px;
+    line-height: 45px;
+    cursor: pointer;
+    margin: 5px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    outline: none;
+    display: block;
+    font-family: Roboto, Sans-Serif;
+    width: 100%;
+}
+
+.finalizarCurso:hover {
+    background: #dc0914;
+    border: solid 1px #222;
+    color: #222;
+}
+
+.modal-content {
+    margin-top: 40%;
+}
+
+.btn-primary {
+    background-color: #1a547a;
+}
+
+.btn-primary:hover {
+    background-color: #04314e;
+}
